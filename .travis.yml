@@ -12,6 +12,6 @@ notifications:
     recipients:
       - timwu000@gmail.com
     on_success: always
-    on_failure: always
+    on_failure: never
 
 script: phpunit -c phpunit.xml --coverage-text
